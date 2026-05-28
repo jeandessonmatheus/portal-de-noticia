@@ -48,3 +48,13 @@ h1, h2, h3{
 main{
     margin-top: 40px;
 }
+
+@media (max-width: 640px) {
+    .container {
+        padding-inline: 16px;
+    }
+
+    main {
+        margin-top: 40px;
+    }
+}
